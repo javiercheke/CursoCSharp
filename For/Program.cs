@@ -15,9 +15,11 @@ namespace For
             "Andres",
             "Vanesa",
             "Mario"
-                        };
+             };
 
-            for (int i = 0; i < friends.Length; i++)
+            bool run = true;
+
+            for (int i = 0; i < friends.Length && run; i++)
             {
                 Console.WriteLine(friends[i]);
             }
